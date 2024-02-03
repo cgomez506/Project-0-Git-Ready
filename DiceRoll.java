@@ -5,7 +5,7 @@ public class DiceRoll {
         // Create a random number generator
         Random random = new Random();
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter Amount of Rolls ");  
+            System.out.print("Enter Amount of Games ");  
             int numRolls= sc.nextInt();  
 
             // Roll the dice multiple times
