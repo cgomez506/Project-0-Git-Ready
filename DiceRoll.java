@@ -5,7 +5,7 @@ public class DiceRoll {
 
         Random random = new Random();
         try (Scanner sc = new Scanner(System.in)) {
-            System.out.print("Enter Amount of Games You want to Play or something like that ");  
+            System.out.print("Enter Amount of Rounds ");  
             int numRolls= sc.nextInt();  
 
             
